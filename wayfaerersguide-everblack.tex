@@ -1,4 +1,5 @@
 \documentclass[11pt,a4paper,twocolumn]{scrbook}
+\usepackage{aurical}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 \usepackage{enumitem}
@@ -20,13 +21,21 @@
 \newenvironment{35e}[0]{
   \begin{addmargin}[0.5cm]{0cm}
     \subsubsection*{3.5e rules}
-  }{
+}{
   \end{addmargin}
 }
 
 \newcommand\songquote[3]{
   \onecolumn
   \begin{center}#3\end{center} - \emph{#2} by \emph{#1}
+}
+
+\newenvironment{note}{
+  \begin{addmargin}[0.5cm]{0cm}
+    \subsubsection*{Author's notes:}
+}{
+  \end{addmargin}
+  \par
 }
 
 \title{Wayfaerer's Guide to Everblack}
