@@ -1,0 +1,50 @@
+* TODO Other Races [0/2]
+** TODO Ilians
+** TODO Tynrikke
+** TODO Dragons
+* TODO Gods [0/17]
+** TODO Aria
+** TODO Dark Flame
+** TODO Dragon Pantheon
+** TODO Forun
+** TODO Isamir
+** TODO Loodus
+** TODO Mad God
+** TODO Marwaid
+** TODO Nyddwr
+** TODO Order
+** TODO Pariah
+** TODO Runemaster
+** TODO Snih
+** TODO Three Kings
+** TODO Silent Queen
+** TODO Grianar
+** TODO Elder Gods
+* TODO City Kingdoms [0/8]
+** TODO Avenfjord
+** TODO Morkan
+** TODO Tredegar
+** TODO Kilmarnock
+** TODO Hraglund
+** TODO Fes al-Basir
+** TODO Kesmar
+** TODO Ranian
+* TODO Creatures [0/5]
+** TODO Hruza
+** TODO Arnak
+** TODO Black Blight
+** TODO Everblack Golem
+** TODO Gorgon
+* TODO Artefacts [0/4]
+** TODO Pale Elf Bow
+** TODO Resurgam
+** TODO Slave Band
+** TODO More!
+* TODO Organisations [0/7]
+** TODO Ror-Aram Trading Corporation
+** TODO House Ranian
+** TODO Third Order [Order]
+** TODO Knights of the Black Rose [Order]
+** TODO Order of Saint Alyssia [Grianar]
+** TODO Knight Order of Tavos [Lor]
+** TODO Holy Order of Sir Ceartas [Lor]
