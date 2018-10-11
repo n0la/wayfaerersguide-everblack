@@ -20,9 +20,9 @@
 ** TODO Silent Queen
 ** TODO Grianar
 ** TODO Elder Gods
-* TODO City Kingdoms [1/8]
+* TODO City Kingdoms [2/8]
 ** DONE Avenfjord
-** TODO Morkan
+** DONE Morkan
 ** TODO Tredegar
 ** TODO Kilmarnock
 ** TODO Hraglund
