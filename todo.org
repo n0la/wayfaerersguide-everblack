@@ -2,17 +2,17 @@
 ** TODO Ilians
 ** TODO Tynrikke
 ** TODO Dragons
-* TODO Gods [1/17]
+* TODO Gods [3/17]
 ** TODO Aria
 ** TODO Dark Flame
 ** TODO Dragon Pantheon
-** TODO Forun
+** DONE Forun
 ** TODO Isamir
 ** TODO Loodus
 ** TODO Mad God
 ** TODO Marwaid
 ** DONE Nyddwr
-** TODO Order
+** DONE Order
 ** TODO Pariah
 ** TODO Runemaster
 ** TODO Snih
@@ -46,7 +46,7 @@
 ** TODO Ror-Aram Trading Corporation
 ** TODO House Ranian
 ** TODO Third Order [Order]
-** TODO Knights of the Black Rose [Order]
+** TODO Knights of the Valiant Rose [Order]
 ** TODO Order of Saint Alyssia [Grianar]
 ** TODO Knight Order of Tavos [Lor]
 ** TODO Holy Order of Sir Ceartas [Lor]
