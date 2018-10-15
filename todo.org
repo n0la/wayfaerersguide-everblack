@@ -2,8 +2,8 @@
 ** TODO Ilians
 ** TODO Tynrikke
 ** TODO Dragons
-* TODO Gods [4/17]
-** TODO Aria
+* TODO Gods [6/17]
+** DONE Aria
 ** TODO Dark Flame
 ** TODO Dragon Pantheon
 ** DONE Forun
@@ -16,7 +16,7 @@
 ** TODO Pariah
 ** TODO Runemaster
 ** TODO Snih
-** TODO Three Kings
+** DONE Three Kings
 ** TODO Silent Queen
 ** TODO Grianar
 ** TODO Elder Gods
