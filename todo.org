@@ -2,7 +2,7 @@
 ** TODO Ilians
 ** TODO Tynrikke
 ** TODO Dragons
-* TODO Gods [3/17]
+* TODO Gods [4/17]
 ** TODO Aria
 ** TODO Dark Flame
 ** TODO Dragon Pantheon
@@ -10,7 +10,7 @@
 ** TODO Isamir
 ** TODO Loodus
 ** TODO Mad God
-** TODO Marwaid
+** DONE Marwaid
 ** DONE Nyddwr
 ** DONE Order
 ** TODO Pariah
