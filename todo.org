@@ -20,14 +20,14 @@
 ** TODO Silent Queen
 ** TODO Grianar
 ** TODO Elder Gods
-* TODO City Kingdoms [6/10]
+* TODO City Kingdoms [7/10]
 ** DONE Avenfjord
 ** DONE Morkan
 ** DONE Tredegar
 ** DONE Kilmarnock -> Helmarnock
 ** DONE Hraglund
 ** DONE Fes al-Bashir
-** TODO Esmajar
+** DONE Esmajar
 ** TODO El-Fayam
 ** TODO Kesmar
 ** TODO Volnoi
