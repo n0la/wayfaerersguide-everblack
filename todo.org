@@ -1,9 +1,7 @@
-* TODO Other Races [0/5]
+* TODO Other Races [0/2]
 ** TODO Ilians
 ** TODO Tynrikke
 ** TODO Dragons
-** TODO Giants
-** TODO Hobgoblins
 * TODO Gods [7/17]
 ** DONE Aria
 ** TODO Dark Flame
@@ -22,13 +20,13 @@
 ** TODO Silent Queen
 ** TODO Grianar
 ** TODO Elder Gods
-* TODO City Kingdoms [4/10]
+* TODO City Kingdoms [6/10]
 ** DONE Avenfjord
 ** DONE Morkan
 ** DONE Tredegar
 ** DONE Kilmarnock -> Helmarnock
-** TODO Hraglund
-** TODO Fes al-Bashir
+** DONE Hraglund
+** DONE Fes al-Bashir
 ** TODO Esmajar
 ** TODO El-Fayam
 ** TODO Kesmar
@@ -44,11 +42,11 @@
 ** TODO Resurgam
 ** TODO Slave Band
 ** TODO More!
-* TODO Organisations [0/7]
+* TODO Organisations [5/7]
 ** TODO Ror-Aram Trading Corporation
 ** TODO House Ranian
-** TODO Third Order [Order]
-** TODO Knights of the Valiant Rose [Order]
-** TODO Order of Saint Alyssia [Grianar]
-** TODO Knight Order of Tavos [Lor]
-** TODO Holy Order of Sir Ceartas [Lor]
+** DONE Third Order [Order]
+** DONE Knights of the Valiant Rose [Order]
+** DONE Order of Saint Alyssia [Grianar]
+** DONE Holy Order of Sir Ceartas [Lor]
+** DONE Knight Order of Tavos [Lor]
