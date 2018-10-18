@@ -20,7 +20,7 @@
 ** TODO Silent Queen
 ** TODO Grianar
 ** TODO Elder Gods
-* TODO City Kingdoms [8/10]
+* TODO City Kingdoms [9/10]
 ** DONE Avenfjord
 ** DONE Morkan
 ** DONE Tredegar
@@ -29,7 +29,7 @@
 ** DONE Fes al-Bashir
 ** DONE Esmajar
 ** DONE El-Fayam
-** TODO Kesmar
+** DONE Kesmar
 ** TODO Volnoi
 * TODO Creatures [0/5]
 ** TODO Hruza
