@@ -50,3 +50,5 @@
 ** DONE Order of Saint Alyssia [Grianar]
 ** DONE Holy Order of Sir Ceartas [Lor]
 ** DONE Knight Order of Tavos [Lor]
+* TODO Other Stuff
+** TODO Everblack (usage, poisonous powder, mining)
