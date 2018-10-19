@@ -31,6 +31,8 @@
 ** DONE El-Fayam
 ** DONE Kesmar
 ** DONE Volnoi -> Stenheim
+* TODO Realms & Cultures
+** TODO Dirgewood
 * TODO Creatures [0/5]
 ** TODO Hruza
 ** TODO Arnak
