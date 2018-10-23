@@ -10,8 +10,13 @@
 \usepackage{fullpage}
 \usepackage{eso-pic}
 \usepackage{incgraph,tikz}
+\usepackage{mdframed}
+\usepackage{subcaption}
+\usepackage{caption}
 
 \newcommand\litem[1]{\item{\bfseries#1.\space}}
+
+\input{macros}
 
 \newcommand\aren[1]{
   \begin{addmargin}[0.5cm]{0.5cm}
@@ -22,13 +27,6 @@
 \newcommand\graham[1]{
   \begin{addmargin}[0.5cm]{0.5cm}
     ``#1'' - \emph{Graham Balance}\\
-  \end{addmargin}
-}
-
-\newenvironment{35e}[0]{
-  \begin{addmargin}[0.5cm]{0cm}
-    \subsubsection*{3.5e rules}
-}{
   \end{addmargin}
 }
 
