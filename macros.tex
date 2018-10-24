@@ -42,7 +42,8 @@
 %%
 \newenvironment{35efeats}[1]{
   \begin{figure*}[!ht]
-    \caption*{\textbf{#1}}
+    \captionsetup{labelformat=empty,font={large,bf}}
+    \caption{#1}\label{fig:feats:#1}
     \begin{mdframed}[leftmargin=5cm,rightmargin=5cm]
 }{
     \end{mdframed}
@@ -52,7 +53,8 @@
 \newenvironment{35efeat}[1]{
   \begin{subfigure}[b]{0.5\textwidth}
     \centering
-    \large{\textbf{#1}}
+    \captionsetup{labelformat=empty,font={large,bf}}
+    \caption{#1}\label{fig:feat:#1}
 }{
   \end{subfigure}
 }
