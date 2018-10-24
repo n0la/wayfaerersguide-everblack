@@ -16,10 +16,8 @@
 %% then the description text. \srditem{header}{description}
 %% simulates exactly that.
 %%
-\newcommand{\srditem}[2]{
-  \begin{addmargin}[0.2cm]{0cm}
-    \textbf{#1}: #2
-  \end{addmargin}
+\newcommand{\srditem}[2]{%
+  \par \hspace*{0.2cm} \textbf{#1}: #2
 }
 
 \newcommand{\srdheritagefeat}[0]{
@@ -38,22 +36,15 @@
     bonuses allow for additional education feats.}
 }
 
-%% Begin a new feat block
+%% Begin a new feat block. Multiple \srditem should be used to recreate
+%% the look of the original 3.5e books
 %%
-%% TODO: redesign these so that they are normal text
-\newenvironment{35efeats}[1]{
-  \begin{figure*}[!ht]
-    \captionsetup{labelformat=empty,font={large,bf}}
-    \caption{#1}\label{fig:feats:#1}
-}{
-  \end{figure*}
-}
-
 \newenvironment{35efeat}[1]{
-  \begin{subfigure}[b]{0.5\textwidth}
-    \centering
-    \captionsetup{labelformat=empty,font={large,bf}}
-    \caption{#1}\label{fig:feat:#1}
+  \vspace*{0.3cm}
+  \begin{centering}
+    \phantomsection
+    \textbf{\large{\index{#1}}}\label{feat:#1}\\
+  \end{centering}
 }{
-  \end{subfigure}
+  \par
 }
