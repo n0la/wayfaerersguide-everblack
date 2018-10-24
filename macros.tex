@@ -11,21 +11,33 @@
   \end{figure}
 }
 
+%% The 3.5e materials have a style where they start with
+%% with a bold face header text, following by a colon and
+%% then the description text. \srditem{header}{description}
+%% simulates exactly that.
+%%
+\newcommand{\srditem}[2]{
+  \begin{addmargin}[0.2cm]{0cm}
+    \textbf{#1}: #2
+  \end{addmargin}
+}
+
+\newcommand{\srdheritagefeat}[0]{
+  \srditem{Heritage Feat}{This feat is a heritage feat and can only be taken
+    at level 1. This feat does not count towards your maximum allowed feats of
+    level 1. But only one heritage feat may be taken at level 1, unless racial
+    bonuses allow for additional heritage feats.}
+}
+
 %% Begin a new feat block
 %%
 \newenvironment{35efeats}[1]{
-  \begin{figure*}[ht!]
+  \begin{figure*}[!ht]
     \caption*{\textbf{#1}}
     \begin{mdframed}[leftmargin=5cm,rightmargin=5cm]
 }{
     \end{mdframed}
   \end{figure*}
-}
-
-\newcommand{\srditem}[2]{
-  \begin{addmargin}[0.2cm]{0cm}
-    \textbf{#1}: #2
-  \end{addmargin}
 }
 
 \newenvironment{35efeat}[1]{
