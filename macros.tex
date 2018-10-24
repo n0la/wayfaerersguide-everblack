@@ -11,6 +11,10 @@
   \end{figure}
 }
 
+\newcommand{\featref}[1]{%
+  \hyperref[feat:#1]{#1}
+}
+
 %% The 3.5e materials have a style where they start with
 %% with a bold face header text, following by a colon and
 %% then the description text. \srditem{header}{description}
@@ -42,8 +46,7 @@
 \newenvironment{35efeat}[1]{
   \vspace*{0.3cm}
   \begin{centering}
-    \phantomsection
-    \textbf{\large{#1}}\label{feat:#1}\\
+    \textbf{\large{#1}}\label{feat:#1}
   \end{centering}
 }{
   \par
