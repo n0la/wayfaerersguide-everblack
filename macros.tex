@@ -1,0 +1,35 @@
+\newenvironment{35e}[0]{
+  \begin{addmargin}[0.5cm]{0cm}
+    \subsubsection*{3.5e rules}
+}{
+  \end{addmargin}
+}
+
+\newmdenv[
+  roundcorner = 5 pt,
+]{dnd35}
+
+%% Begin a new feat block
+%%
+\newenvironment{35efeats}[1]{
+  \begin{figure*}[ht!]
+    \caption*{\textbf{#1}}
+    \begin{mdframed}[leftmargin=5cm,rightmargin=5cm]
+}{
+    \end{mdframed}
+  \end{figure*}
+}
+
+\newcommand{\srditem}[2]{
+  \begin{addmargin}[0.2cm]{0cm}
+    \textbf{#1}: #2
+  \end{addmargin}
+}
+
+\newenvironment{35efeat}[1]{
+  \begin{subfigure}[b]{0.5\textwidth}
+    \centering
+    \large{\textbf{#1}}
+}{
+  \end{subfigure}
+}
