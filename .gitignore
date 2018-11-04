@@ -1,2 +1,8 @@
 *.aux
 *.log
+*.idx
+*.ilg
+*.ind
+*.out
+*.toc
+*.pdf
