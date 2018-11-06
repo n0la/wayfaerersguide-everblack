@@ -2,7 +2,7 @@
 ** TODO Ilians
 ** TODO Tynrikke
 ** TODO Dragons
-* TODO Gods [7/17]
+* TODO Gods [9/17]
 ** DONE Aria
 ** TODO Dark Flame
 ** TODO Dragon Pantheon
@@ -17,8 +17,10 @@
 ** DONE Runemaster
 ** TODO Snih
 ** DONE Three Kings
-** TODO Silent Queen
-** TODO Grianar
+** DONE Silent Queen
+   - State "DONE"       from "TODO"       [2018-11-06 Tue 15:46]
+** DONE Grianar
+   - State "DONE"       from "TODO"       [2018-11-06 Tue 15:47]
 ** TODO Elder Gods
 * DONE City Kingdoms [10/10]
 ** DONE Avenfjord
@@ -31,26 +33,33 @@
 ** DONE El-Fayam
 ** DONE Kesmar
 ** DONE Volnoi -> Stenheim
-* TODO Realms & Cultures
-** TODO Dirgewood
+* TODO Realms & Cultures [1/1]
+** DONE Dirgewood
+   - State "DONE"       from "TODO"       [2018-11-06 Tue 15:47]
 * TODO Creatures [0/5]
 ** TODO Hruza
 ** TODO Arnak
 ** TODO Black Blight
 ** TODO Everblack Golem
 ** TODO Gorgon
-* TODO Artefacts [0/4]
+* TODO Artefacts [1/4]
 ** TODO Pale Elf Bow
 ** TODO Resurgam
-** TODO Slave Band
+** DONE Slave Band
+   - State "DONE"       from "TODO"       [2018-11-06 Tue 15:47]
 ** TODO More!
-* TODO Organisations [5/7]
-** TODO Ror-Aram Trading Corporation
-** TODO House Ranian
+* DONE Organisations [7/7]
+** DONE Ror-Aram Trading Corporation
+   - State "DONE"       from "TODO"       [2018-11-06 Tue 15:47]
+** DONE House Ranian
+   - State "DONE"       from "TODO"       [2018-11-06 Tue 15:47]
 ** DONE Third Order [Order]
 ** DONE Knights of the Valiant Rose [Order]
 ** DONE Order of Saint Alyssia [Grianar]
 ** DONE Holy Order of Sir Ceartas [Lor]
 ** DONE Knight Order of Tavos [Lor]
-* TODO Other Stuff
-** TODO Everblack (usage, poisonous powder, mining)
+* TODO Other Stuff [1/1]
+** TODO rfuentess: better poisonous phrasing with everblack
+** TODO rfuentess: better and clear phrasing regarding lesser/greater deities
+** DONE Everblack (usage, poisonous powder, mining)
+   - State "DONE"       from "TODO"       [2018-11-06 Tue 15:47]
