@@ -1,3 +1,21 @@
+% Notes for DM's
+%
+\newenvironment{note}{
+  \begin{mdframed}[roundcorner = 5pt,
+                   skipabove=0.3cm,
+                   leftmargin=0.2cm,
+                   rightmargin=0.2cm]
+    \begin{centering}
+      \textbf{\large{Notes for Dungeon Masters}}
+    \end{centering}
+    \par
+}{
+  \end{mdframed}
+  \par
+}
+
+% That one song quote
+%
 \newcommand\songquote[2]{
   \begin{center}
     ``#2'' \\ - \emph{#1}
