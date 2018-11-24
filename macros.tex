@@ -42,13 +42,22 @@
   \hyperref[feat:#1]{#1}
 }
 
+\newenvironment{ebtable}[1]{%
+  \begin{table*}[!htb]
+    \captionsetup{labelformat=empty,font={large,bf},position=top}
+    \caption{#1}
+    \rowcolors{1}{white}{light-grey}
+}{
+  \end{table*}
+}
+
 %% The 3.5e materials have a style where they start with
 %% with a bold face header text, following by a colon and
 %% then the description text. \srditem{header}{description}
 %% simulates exactly that.
 %%
 \newcommand{\srditem}[2]{%
-  \par \textbf{#1}: #2
+  \par \noindent \textbf{#1}: #2
 }
 
 \newcommand{\srdbackgroundfeat}[0]{
