@@ -23,11 +23,9 @@
 \usepackage{pdflscape}
 \usepackage{xfrac}
 
+\hypersetup{pdftex,colorlinks=true,allcolors=blue}
+
 \usetikzlibrary{positioning}
-
-\definecolor{light-grey}{gray}{0.85}
-
-\newcommand\litem[1]{\item{\bfseries#1.\space}}
 
 \input{macros}
 
@@ -59,6 +57,11 @@
 
 \maketitle
 
+% Put world map right here, after the title, making them the
+% second and third page
+\input{chapters/worldmap}
+
+% Credits
 \input{chapters/credits}
 
 \tableofcontents

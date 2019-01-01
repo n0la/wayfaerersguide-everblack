@@ -1,3 +1,12 @@
+\newcommand\litem[1]{\item{\bfseries#1.\space}}
+
+\definecolor{light-grey}{gray}{0.85}
+
+\newcommand*\cleartoleftpage{%
+  \clearpage
+  \ifodd\value{page}\hbox{}\newpage\fi
+}
+
 % Notes for DM's
 %
 \newenvironment{note}{
