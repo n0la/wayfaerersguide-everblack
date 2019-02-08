@@ -83,6 +83,27 @@ serious long term harm, or even death.
 
 \subsection{Individual Soul Powers}
 
+\begin{table*}[!htb]
+  \captionsetup{labelformat=empty,font={large,bf},position=top}
+  \caption{Soul Powers}
+  \rowcolors{1}{white}{light-grey}
+  \begin{tabular}{p{4cm} p{11cm}}
+    \textbf{Level 0} & \nobreak \\
+    Shining Aura     & You emanate shining light, that illuminates your surroundings. \\
+    \textbf{Level 1} & \nobreak \\
+    Mend Soul        & You cure a target soul, or creature with a soul, for 1d8+1 points of damage. \\
+    War Fuel         & You power your physical prowess with your soul's energy \\
+    Aflame           & You set others or objects aflame using soul fire. \\
+    \textbf{Level 2} & \nobreak \\
+    Soul Fire Ray    & You conjure a ray of soul fire to damage your enemies. \\
+    \textbf{Level 3} & \nobreak \\
+    Soul Blade       & You fuel your weapons with soul fire, causing them to deal additional damage on hit. \\
+    Fearsome Presence& Your mere presence strikes fear and dread in to the heart of your enemies \\
+    \textbf{Level 4} & \nobreak \\
+    Inconspicuous Presence & You go unnoticed, undetected and easily slip the minds of those that do see you. \\
+  \end{tabular}
+\end{table*}
+
 \begin{soulpower}{Mend Soul}
   \level{1}
   \components{V, S}
@@ -98,7 +119,7 @@ serious long term harm, or even death.
 \end{soulpower}
 
 \begin{soulpower}{Soul Fire Ray}
-  \level{1}
+  \level{2}
   \components{S}
   \castingtime{1 standard action}
   \rangeclose
@@ -107,9 +128,9 @@ serious long term harm, or even death.
   \sundering{Yes, near death experience from damage from this spell}
 
   You conjure a sharp, fiery ray of raw soul energy that you can direct at
-  your enemies. Each ray requires a ranged touch attack to hit, and deals 2d6
+  your enemies. Each ray requires a ranged touch attack to hit, and deals 3d6
   points of soul damage. For every power level you raise the power, you gain
-  an additional 1d6 points of soul damage (maximum 10d6).
+  an additional 1d6 points of soul damage (maximum 11d6).
 \end{soulpower}
 
 \begin{soulpower}{War Fuel}
@@ -131,7 +152,7 @@ serious long term harm, or even death.
   \components{V}
   \castingtime{1 swift action}
   \range{Personal}
-  \target{One or two weapons you wield or touch, or your unarmed attacks}
+  \target{Any (or all) weapon you wield, or your unarmed strikes}
   \raising{Yes}
   \duration{1 round (+1 per raise)}
 
@@ -141,46 +162,21 @@ serious long term harm, or even death.
   power lasts one round longer.
 \end{soulpower}
 
-\begin{soulpower}{Empower}
-  \level{0}
-  \components{S}
-  \castingtime{Free action}
-  \rangepersonal
-  \raising{No}
-  \duration{Special, see text}
-
-  You take extra care to overcharge your next soul spell. The next soul spell
-  you cast is \emph{powered} (as if the Empower Spell metamagic was applied to
-  it), but also costs 50\% more spell power points to cast. Calculate the
-  additional cost after you have raised the spell to be empowered.
-\end{soulpower}
-
-\begin{soulpower}{Maximise}
-  \level{0}
-  \components{S}
-  \castingtime{Free action}
-  \rangepersonal
-  \raising{No}
-  \duration{Special, see text}
-
-  You take extra care to overcharge your next soul spell. The next soul spell
-  you cast is \emph{maximised} (as if the Maximize Spell metamagic was applied
-  to it), but also costs 100\% more spell power points to cast. Calculate the
-  additional cost after you have raised the spell to be empowered.
-\end{soulpower}
-
 \begin{soulpower}{Aflame}
   \level{1}
   \components{S}
   \castingtime{1 standard action}
   \range{Touch}
   \target{Object or person touched}
-  \raising{No}
+  \raising{Yes}
+  \duration{1 round (+1 per raise) or until doused}
   \savingthrow{Special, see text}
 
   You conjure a small flame of soul fire and set ablaze a creature or object
   you touch. If your touch attack hits you damage your target for 1d6+1
-  \emph{soul damage}. Souls, or creatures with souls, must succeed a fortitude
+  \emph{soul damage}. You can raise the spell, and with each additional power
+  level you gain an additional +1 damage (maximum +9), and the fire lasts one
+  round longer.  Souls, or creatures with souls, must succeed a fortitude
   saving throw or be set aflame by the fire. A creature set a flame by your
   soul fire can spent a full round to douse the flames engulfing them.
 \end{soulpower}
@@ -198,4 +194,40 @@ serious long term harm, or even death.
   The light from your soul becomes visible to everyone surrounding you, and
   your aura clearly illuminates everything within a 30 ft. radius, and
   provides a shadowy illumination out to 60 ft.
+\end{soulpower}
+
+\begin{soulpower}{Fearsome Presence (Aura)}
+  \level{3}
+  \components{-}
+  \castingtime{Free action}
+  \range{Personal}
+  \target{Enemies within 30 ft. of you}
+  \raising{Yes}
+  \duration{Until dismissed}
+  \savingthrow{Special, see text}
+
+  An aura of dread and horror emanates from you, causing any creature within
+  30 ft. that have a soul (or are souls) to make a will save. If the will save
+  fails and the creature's HD are less than 3, the creature is frightened for
+  4d6 rounds. If the save fails and the creature's HD are more than 3 the
+  creature is shaken for 3d6 rounds instead. You can raise the aura, adding an
+  additional one HD to your threshold by doing so (maximum +10).
+\end{soulpower}
+
+\begin{soulpower}{Inconspicuous Presence (Aura)}
+  \aren{My favourite tool to remain unnoticed in large and crowded places.}
+
+  \level{4}
+  \components{-}
+  \castingtime{Free action}
+  \rangepersonal
+  \raising{Yes}
+  \duration{Until dismissed}
+
+  You emanate an aura of inconspicuousness, sliding from other people's notice
+  and memory easily, if they notice you at all. While the aura is active you
+  gain a +4 soul bonus to bluff, hide and move silently. You can raise the
+  aura, giving you an additional +1 bonus to those skills for each power level
+  (maximum +10 soul power). Creatures that fail the save against your aura
+  forget they ever saw you after 1d4 rounds.
 \end{soulpower}
