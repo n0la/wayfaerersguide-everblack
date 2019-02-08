@@ -88,3 +88,35 @@
 }{
   \par
 }
+
+%% Begin a new soul power block. Multiple \srditem should be used to recreate
+%% the look of the original 3.5e books
+%%
+\newenvironment{soulpower}[1]{
+  \vspace*{0.3cm}
+  \begin{centering}
+    \textbf{\large{#1}}\label{soulpower:#1}
+  \end{centering}
+}{
+  \par
+}
+
+%% Common SRD things for spells
+\newcommand{\level}[1]{\srditem{Power Level}{#1}}
+\newcommand{\components}[1]{\srditem{Components}{#1}}
+\newcommand{\castingtime}[1]{\srditem{Casting Time}{#1}}
+\newcommand{\target}[1]{\srditem{Target}{#1}}
+\newcommand{\range}[1]{\srditem{Range}{#1}}
+\newcommand{\rangetouch}[0]{%
+  \srditem{Range}{Touch}
+  \srditem{Target}{Creature touched}
+}
+\newcommand{\rangepersonal}[0]{%
+  \srditem{Range}{Personal}
+  \srditem{Target}{You}
+}
+\newcommand{\rangeclose}[0]{\srditem{Range}{Close (25 ft. + 5 ft./2 levels)}}
+\newcommand{\duration}[1]{\srditem{Duration}{#1}}
+\newcommand{\instantaneous}[0]{\srditem{Duration}{Instantaneous}}
+\newcommand{\savingthrow}[1]{\srditem{Saving Throw}{#1}}
+\newcommand{\raising}[1]{\srditem{Can be raised}{#1}}
