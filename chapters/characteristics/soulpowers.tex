@@ -44,16 +44,13 @@ classes that give you 0 power points from your soul caster level).
   \rowcolors{1}{white}{light-grey}
   \begin{tabular}{p{2cm} p{3cm}}
     \textbf{Power Level} & \textbf{Power Point Cost} \\
-    0 &  0 \\
-    1 &  1 \\
-    2 &  3 \\
-    3 &  5 \\
-    4 &  7 \\
-    5 &  9 \\
-    6 & 11 \\
-    7 & 13 \\
-    8 & 15 \\
-    9 & 17
+    0 &  1 \\
+    1 &  3 \\
+    2 &  5 \\
+    3 &  7 \\
+    4 &  9 \\
+    5 & 11 \\
+    6 & 13 \\
   \end{tabular}
 \end{table}
 
@@ -103,6 +100,7 @@ serious long term harm, or even death.
     Violent Disjoint & You force your enemy's soul out of their body \\
     \textbf{Level 6} & \nobreak \\
     Defile           & You kill and destroy to gain soul power \\
+    Preserve         & You sacrifice your own soul power to restore a defiled area \\
   \end{tabular}
 \end{table*}
 
@@ -221,20 +219,34 @@ serious long term harm, or even death.
   \components{S, V}
   \castingtime{1 full round}
   \rangeclose
-  \raising{Yes}
+  \raising{No}
   \savingthrow{Will save}
 
   You leech power from the souls surrounding you. From the trees, the birds,
   the insects, the animals and even other people to fuel your own power. But
   everything you draw upon suffers, withers and dies. Every creature, plant
-  and wildlife within the radius must succeed a will save or take one negative
-  level, and give you 1d4 soul power points in return. For each level raised
-  you can cause another negative level and gain another 1d4 soul power.
+  and wildlife within the radius must succeed a will save or take 1d4+1 negative
+  level, and give you the same amount of soul power points in return.
 
   It is always up to the terrain how many creatures around to draw upon.
   Deserts (either sand or snow) have nothing to draw upon, while lush forests
   or jungles have plenty draw upon. Defilement will always leave a patch of
   land that is barren.
+\end{soulpower}
+
+\begin{soulpower}{Preserve}
+  \level{6}
+  \components{S, V}
+  \castingtime{1 full round}
+  \rangeclose
+  \raising{No}
+  \savingthrow{Will save (harmless)}
+
+  You sacrifice your own soul power (and health) to restore life to a
+  previously defiled area. You can restore 1d4+1 negative level of everyone in
+  your surrounding area and take the same amount soul power damage. If you
+  don't have enough soul power points the damage is dealt to your health
+  instead.
 \end{soulpower}
 
 \subsection{Soul Auras}
