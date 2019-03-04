@@ -44,16 +44,13 @@ classes that give you 0 power points from your soul caster level).
   \rowcolors{1}{white}{light-grey}
   \begin{tabular}{p{2cm} p{3cm}}
     \textbf{Power Level} & \textbf{Power Point Cost} \\
-    0 &  0 \\
-    1 &  1 \\
-    2 &  3 \\
-    3 &  5 \\
-    4 &  7 \\
-    5 &  9 \\
-    6 & 11 \\
-    7 & 13 \\
-    8 & 15 \\
-    9 & 17
+    0 &  1 \\
+    1 &  3 \\
+    2 &  5 \\
+    3 &  7 \\
+    4 &  9 \\
+    5 & 11 \\
+    6 & 13 \\
   \end{tabular}
 \end{table}
 
@@ -63,15 +60,12 @@ classes that give you 0 power points from your soul caster level).
   \rowcolors{1}{white}{light-grey}
   \begin{tabular}{p{2cm} p{3cm}}
     \textbf{Level} & \textbf{Highest Power level} \\
-    1-2   & 1st \\
-    3-4   & 2nd \\
-    5-6   & 3rd \\
-    7-8   & 4th \\
-    9-10  & 5th \\
-    11-12 & 6th \\
-    13-14 & 7th \\
-    15-16 & 8th \\
-    17-20 & 9th
+    1-3   & 1st \\
+    4-6   & 2nd \\
+    7-9   & 3rd \\
+    10-12 & 4th \\
+    13-15 & 5th \\
+    16-20 & 6th
   \end{tabular}
 \end{table}
 
@@ -96,11 +90,18 @@ serious long term harm, or even death.
     Aflame           & You set others or objects aflame using soul fire. \\
     \textbf{Level 2} & \nobreak \\
     Soul Fire Ray    & You conjure a ray of soul fire to damage your enemies. \\
+    Disjoint         & Leave your body behind and free your soul \\
     \textbf{Level 3} & \nobreak \\
-    Soul Blade       & You fuel your weapons with soul fire, causing them to deal additional damage on hit. \\
     Fearsome Presence& Your mere presence strikes fear and dread in to the heart of your enemies \\
+    Soul Blade       & You fuel your weapons with soul fire, causing them to deal additional damage on hit. \\
     \textbf{Level 4} & \nobreak \\
     Inconspicuous Presence & You go unnoticed, undetected and easily slip the minds of those that do see you. \\
+    Violent Disjoint & You force your enemy's soul out of their body \\
+    \textbf{Level 5} & \nobreak \\
+    
+    \textbf{Level 6} & \nobreak \\
+    Defile           & You kill and destroy to gain soul power \\
+    Preserve         & You sacrifice your own soul power to restore a defiled area \\
   \end{tabular}
 \end{table*}
 
@@ -179,6 +180,74 @@ serious long term harm, or even death.
   round longer.  Souls, or creatures with souls, must succeed a fortitude
   saving throw or be set aflame by the fire. A creature set a flame by your
   soul fire can spent a full round to douse the flames engulfing them.
+\end{soulpower}
+
+\begin{soulpower}{Disjoint}
+  \level{2}
+  \components{-}
+  \castingtime{1 standard action}
+  \rangepersonal
+  \raising{No}
+  \duration{1 hour per caster level}
+
+  Your soul steps out of your own body and appears as a spectral ghost. You
+  leave your body behind as a soulless husk, that cannot move, think, walk,
+  feed or fend for itself. Your body is considered helpless.
+  Your spectral image has the same stats, abilities as you, but gains the
+  ``Incorporeal'' sub type. You may return to your body by ending the spell
+  as a free action, or you automatically return to it when the spell ends.
+  If your soul dies, your body remains as a soulless husk, and if you body
+  dies you remain as a free soul.
+\end{soulpower}
+
+\begin{soulpower}{Violent Disjoint}
+  \level{4}
+  \components{S}
+  \castingtime{1 standard action}
+  \rangetouch
+  \raising{Yes}
+  \duration{1 minute per cast level}
+  \savingthrow{Will to resist}
+
+  Works just like ``disjoint'', except you can force another creature's soul
+  out of their body. If the saving throw fails, the soul of your target is
+  forced out its body, and incapable of returning for the duration. Raising
+  this soul power increases your DC for +1 for each level you raise it.
+\end{soulpower}
+
+\begin{soulpower}{Defile}
+  \level{6}
+  \components{S, V}
+  \castingtime{1 full round}
+  \rangeclose
+  \raising{No}
+  \savingthrow{None}
+
+  You leech power from the souls surrounding you. From the trees, the birds,
+  the insects, the animals and even other people to fuel your own power. But
+  everything you draw upon suffers, withers and dies. Every creature, plant
+  and wildlife within the radius must succeed a will save or take 1d4+1 negative
+  level, and give you the same amount of soul power points in return.
+
+  It is always up to the terrain how many creatures around to draw upon.
+  Deserts (either sand or snow) have nothing to draw upon, while lush forests
+  or jungles have plenty draw upon. Defilement will always leave a patch of
+  land that is barren.
+\end{soulpower}
+
+\begin{soulpower}{Preserve}
+  \level{6}
+  \components{S, V}
+  \castingtime{1 full round}
+  \rangeclose
+  \raising{No}
+  \savingthrow{Will save (harmless)}
+
+  You sacrifice your own soul power (and health) to restore life to a
+  previously defiled area. You can restore 1d4+1 negative level of everyone in
+  your surrounding area and take the same amount soul power damage. If you
+  don't have enough soul power points the damage is dealt to your health
+  instead.
 \end{soulpower}
 
 \subsection{Soul Auras}
