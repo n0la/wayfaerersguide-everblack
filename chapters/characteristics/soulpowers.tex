@@ -61,13 +61,13 @@ classes that give you 0 power points from your soul caster level).
   \rowcolors{1}{white}{light-grey}
   \begin{tabular}{p{2cm} p{3cm}}
     \textbf{Level} & \textbf{Highest Power level} \\
-    1-3   & 1st \\
-    4-6   & 2nd \\
-    7-9   & 3rd \\
-    10-12 & 4th \\
-    13-15 & 5th \\
-    16-19 & 6th \\
-    >20   & 7th \\
+    1-2   & 1st \\
+    3-4   & 2nd \\
+    5-7   & 3rd \\
+    8-10  & 4th \\
+    11-13 & 5th \\
+    14-16 & 6th \\
+    17-20 & 7th \\
   \end{tabular}
 \end{table}
 
@@ -94,75 +94,20 @@ serious long term harm, or even death.
     Soul Fire Ray    & You conjure a ray of soul fire to damage your enemies. \\
     Disjoint         & Leave your body behind and free your soul \\
     \textbf{Level 3} & \nobreak \\
+    Break Soul       & \nobreak \\
     Fearsome Presence& Your mere presence strikes fear and dread in to the heart of your enemies \\
     Soul Blade       & You fuel your weapons with soul fire, causing them to deal additional damage on hit. \\
     \textbf{Level 4} & \nobreak \\
+    Consume Soul     & \nobreak \\
     Inconspicuous Presence & You go unnoticed, undetected and easily slip the minds of those that do see you. \\
     Violent Disjoint & You force your enemy's soul out of their body \\
     \textbf{Level 5} & \nobreak \\
+    Annihilate       & \nobreak \\
     \textbf{Level 6} & \nobreak \\
     Defile           & You kill and destroy to gain soul power \\
     Preserve         & You sacrifice your own soul power to restore a defiled area \\
   \end{tabular}
 \end{table*}
-
-\begin{soulpower}{Mend Soul}
-  \level{1}
-  \components{V, S}
-  \castingtime{1 standard action}
-  \rangetouch
-  \instantaneous
-  \raising{Yes}
-  \savingthrow{Will half (harmless)}
-
-  When laying your hand upon a creature with a soul, or a soul, you grant it
-  some of your power to cure 1d8+1 points of damage. For every power level you
-  raise the spell, you cure an additional 1d8+1 of damage (maximum 9d8+9).
-\end{soulpower}
-
-\begin{soulpower}{Soul Fire Ray}
-  \level{2}
-  \components{S}
-  \castingtime{1 standard action}
-  \rangeclose
-  \instantaneous
-  \raising{Yes}
-  \sundering{Yes, near death experience from damage from this spell}
-
-  You conjure a sharp, fiery ray of raw soul energy that you can direct at
-  your enemies. Each ray requires a ranged touch attack to hit, and deals 3d6
-  points of soul damage. For every power level you raise the power, you gain
-  an additional 1d6 points of soul damage (maximum 11d6).
-\end{soulpower}
-
-\begin{soulpower}{War Fuel}
-  \level{1}
-  \components{V}
-  \castingtime{1 swift action}
-  \rangepersonal
-  \raising{Yes}
-  \duration{2 rounds (+1 per raise)}
-
-  You use your soul power to overcharge your physical power, gaining +2 soul
-  bonus to strength and constitution. This spell can be raised, and for each
-  additional level you gain an additional +2 soul bonus to strength and
-  constitution (maximum +14), and the spells lasts for an additional round.
-\end{soulpower}
-
-\begin{soulpower}{Soul Blade}
-  \level{3}
-  \components{V}
-  \castingtime{1 swift action}
-  \range{Personal}
-  \target{Any (or all) weapon you wield, or your unarmed strikes}
-  \raising{Yes}
-  \duration{1 round (+1 per raise)}
-
-  Your weapons or unarmed attacks become imbued with soul damage, and deal
-  1d8+3 soul damage on a successful it. For every level this power is raised
-  above 3 your weapon deal an additional +1 soul damage (maximum +7), and the
-  power lasts one round longer.
-\end{soulpower}
 
 \begin{soulpower}{Aflame}
   \level{1}
@@ -178,42 +123,86 @@ serious long term harm, or even death.
   you touch. If your touch attack hits you damage your target for 1d6
   \emph{soul damage}. You can raise the spell, and with each additional power
   level you gain an additional 1d6 damage (maximum 7d6), and the fire lasts
-  one round longer.  Souls, or creatures with souls, must succeed a fortitude
+  one round longer. Souls, or creatures with souls, must succeed a fortitude
   saving throw or be set aflame by the fire. A creature set a flame by your
   soul fire can spent a full round to douse the flames engulfing them.
 \end{soulpower}
 
-\begin{soulpower}{Disjoint}
-  \level{2}
-  \components{-}
+\begin{soulpower}{Annihilate}
+  \level{5}
+  \components{S}
   \castingtime{1 standard action}
-  \rangepersonal
-  \raising{No}
-  \duration{1 hour per caster level}
+  \range{Close (60 ft.)}
+  \target{One soul, or creature with a soul}
+  \duration{Instantaneous}
+  \raising{Yes}
+  \savingthrow{Will save or fortitude save (caster's choice)}
 
-  Your soul steps out of your own body and appears as a spectral ghost. You
-  leave your body behind as a soulless husk, that cannot move, think, walk,
-  feed or fend for itself. Your body is considered helpless.
-  Your spectral image has the same stats, abilities as you, but gains the
-  ``Incorporeal'' sub type. You may return to your body by ending the spell
-  as a free action, or you automatically return to it when the spell ends.
-  If your soul dies, your body remains as a soulless husk, and if you body
-  dies you remain as a free soul.
+  With a snap of your fingers you dissolve the bonds between a soul or another
+  living creature's soil, destroying it in a fiery explosion that annihilates
+  the body (but not equipment). The target is allowed a will save, or a
+  fortitude save (caster's choice) to negate the effects of the spell. If the
+  save succeeds the target takes 3d6 points of damage, with an additional 1d6
+  points of damage per level raised. If the throw fails the target dies, and
+  its annihilated soul and body can only be restored by \emph{True
+    Resurrection}.
 \end{soulpower}
 
-\begin{soulpower}{Violent Disjoint}
+\begin{soulpower}{Break Soul}
+  \level{3}
+  \components{S}
+  \castingtime{1 full round}
+  \range{Touch}
+  \target{Soul or creature with a soul touched}
+  \duration{Instantaneous}
+  \savingthrow{Will negates}
+
+  You break a touched soul (or the soul within a creature) in half. The other
+  half is a separate entity, until it is returned to the other half at which
+  point they merge again. If the target creature has soul power points, those
+  are cut are in half until the half of the soul are returned. Non soul
+  casters will feel temporarily weakened and take 3d6 points of non-lethal
+  damage instead. While the soul of a target creature will replenish on its
+  own, the spell leaves a permanent wound, identifying the target as a
+  ``broken soul''.  This also does not diminish the power the other half of
+  the soul has over the original soul (see below).
+
+  The broken soul fragment lingers for 2d4 rounds, and any nearby soul caster
+  can use it to fuel soul spells. If any of these spells target the other half
+  of the soul (or the creature with the other half of the soul) they are not
+  allowed any saving throws to resist the effects of these spells.
+  You can make the other fragment part of your own soul by consuming it with
+  \nameref{sec:Consume Soul}.
+\end{soulpower}
+
+\begin{soulpower}{Consume Soul}
   \level{4}
   \components{S}
   \castingtime{1 standard action}
-  \rangetouch
+  \range{Touch}
+  \target{Soul or creature with a soul touched}
+  \duration{Instantaneous}
+  \savingthrow{Will negates}
   \raising{Yes}
-  \duration{1 minute per cast level}
-  \savingthrow{Will to resist}
 
-  Works just like ``disjoint'', except you can force another creature's soul
-  out of their body. If the saving throw fails, the soul of your target is
-  forced out its body, and incapable of returning for the duration. Raising
-  this soul power increases your DC for +1 for each level you raise it.
+  You consume part of a soul, or a soul fragment as created by
+  \nameref{sec:Break Soul} and make it part of your own. The target soul
+  is granted a will save to negate the effect, while a soul fragment is
+  not granted a save against being consumed.
+
+  If you consume a complete soul, you are granted 3d6+3 points of soul power
+  points that are immediately added to your own soul power point pool. For
+  each level you raise the spell you get an additional +1 soul power point.
+  Your total soul power points can temporarily exceed your maximum after
+  consumption, but any excess soul power points will disappear at a rate of
+  1 soul power points per round until you are at or below your maximum limit.
+
+  If you are consuming a fragment you can store the fragment as part of your
+  soul, and use it only to fuel spells against other fragments (including the
+  original soul). In such a case, the other fragments are not allowed saving
+  throws against such spells. This extra soul power pool works just like your
+  own soul power pool, but the combined soul power of these pools cannot
+  exceed your own original soul power pool.
 \end{soulpower}
 
 \begin{soulpower}{Defile}
@@ -236,6 +225,52 @@ serious long term harm, or even death.
   land that is barren.
 \end{soulpower}
 
+\begin{soulpower}{Disjoint}
+  \level{2}
+  \components{-}
+  \castingtime{1 standard action}
+  \rangepersonal
+  \raising{No}
+  \duration{1 hour per caster level}
+
+  Your soul steps out of your own body and appears as a spectral ghost. You
+  leave your body behind as a soulless husk, that cannot move, think, walk,
+  feed or fend for itself. Your body is considered helpless.
+  Your spectral image has the same stats, abilities as you, but gains the
+  ``Incorporeal'' sub type. You may return to your body by ending the spell
+  as a free action, or you automatically return to it when the spell ends.
+  If your soul dies, your body remains as a soulless husk, and if you body
+  dies you remain as a free soul.
+\end{soulpower}
+
+\begin{soulpower}{Fuel of War}
+  \level{1}
+  \components{V}
+  \castingtime{1 swift action}
+  \rangepersonal
+  \raising{Yes}
+  \duration{2 rounds (+1 per raise)}
+
+  You use your soul power to overcharge your physical power, gaining +2 soul
+  bonus to strength and constitution. This spell can be raised, and for each
+  additional level you gain an additional +2 soul bonus to strength and
+  constitution (maximum +14), and the spells lasts for an additional round.
+\end{soulpower}
+
+\begin{soulpower}{Mend Soul}
+  \level{1}
+  \components{V, S}
+  \castingtime{1 standard action}
+  \rangetouch
+  \instantaneous
+  \raising{Yes}
+  \savingthrow{Will half (harmless)}
+
+  When laying your hand upon a creature with a soul, or a soul, you grant it
+  some of your power to cure 1d8+1 points of damage. For every power level you
+  raise the spell, you cure an additional 1d8+1 of damage (maximum 9d8+9).
+\end{soulpower}
+
 \begin{soulpower}{Preserve}
   \level{6}
   \components{S, V}
@@ -251,20 +286,52 @@ serious long term harm, or even death.
   instead.
 \end{soulpower}
 
-\subsection{Soul Auras}
+\begin{soulpower}{Soul Blade}
+  \level{3}
+  \components{V}
+  \castingtime{1 swift action}
+  \range{Personal}
+  \target{Any (or all) weapon you wield, or your unarmed strikes}
+  \raising{Yes}
+  \duration{1 round (+1 per raise)}
 
-\begin{soulpower}{Shining Aura (Aura)}
-  \level{0}
-  \components{-}
-  \castingtime{Free action}
-  \rangepersonal
-  \raising{No}
-  \duration{Until dismissed}
-
-  The light from your soul becomes visible to everyone surrounding you, and
-  your aura clearly illuminates everything within a 30 ft. radius, and
-  provides a shadowy illumination out to 60 ft.
+  Your weapons or unarmed attacks become imbued with soul damage, and deal
+  1d8+3 soul damage on a successful it. For every level this power is raised
+  above 3 your weapon deal an additional +1 soul damage (maximum +7), and the
+  power lasts one round longer.
 \end{soulpower}
+
+\begin{soulpower}{Soul Fire Ray}
+  \level{2}
+  \components{S}
+  \castingtime{1 standard action}
+  \rangeclose
+  \instantaneous
+  \raising{Yes}
+  \sundering{Yes, near death experience from damage from this spell}
+
+  You conjure a sharp, fiery ray of raw soul energy that you can direct at
+  your enemies. Each ray requires a ranged touch attack to hit, and deals 3d6
+  points of soul damage. For every power level you raise the power, you gain
+  an additional 1d6 points of soul damage (maximum 11d6).
+\end{soulpower}
+
+\begin{soulpower}{Violent Disjoint}
+  \level{4}
+  \components{S}
+  \castingtime{1 standard action}
+  \rangetouch
+  \raising{Yes}
+  \duration{1 minute per cast level}
+  \savingthrow{Will to resist}
+
+  Works just like ``disjoint'', except you can force another creature's soul
+  out of their body. If the saving throw fails, the soul of your target is
+  forced out its body, and incapable of returning for the duration. Raising
+  this soul power increases your DC for +1 for each level you raise it.
+\end{soulpower}
+
+\subsection{Soul Auras}
 
 \begin{soulpower}{Fearsome Presence (Aura)}
   \level{3}
@@ -300,4 +367,17 @@ serious long term harm, or even death.
   aura, giving you an additional +2 bonus to those skills for each power level
   (maximum +10 soul power). Creatures that fail the save against your aura
   forget they ever saw you after 1d4 rounds.
+\end{soulpower}
+
+\begin{soulpower}{Shining Aura (Aura)}
+  \level{0}
+  \components{-}
+  \castingtime{Free action}
+  \rangepersonal
+  \raising{No}
+  \duration{Until dismissed}
+
+  The light from your soul becomes visible to everyone surrounding you, and
+  your aura clearly illuminates everything within a 30 ft. radius, and
+  provides a shadowy illumination out to 60 ft.
 \end{soulpower}
