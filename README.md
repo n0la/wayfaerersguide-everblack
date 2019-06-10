@@ -1,8 +1,7 @@
-# Wayfaerer's Guide to Everblack
+# Everblack: Wayfaerer's Guide To Aror
 
 My personal D&D campaign setting "Everblack" packed into a small and handy
-LaTeX document. The information will be the same as my
-[wiki](https://everblack.n0la.org) but once complete it will supersede the wiki.
+LaTeX document.
 
 # Licence
 
