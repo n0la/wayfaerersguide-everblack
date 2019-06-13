@@ -71,12 +71,6 @@ classes that give you 0 power points from your soul caster level).
   \end{tabular}
 \end{table}
 
-Some soul powers are \emph{soul sundering}. Meaning that they have a chance
-to break the target's soul, and thus forcing him to soul awaken. Surviving a
-soul power is by far the most common way to awaken to have one's own soul
-awoken. It is rarely a pleasant way to awaken, and comes with a risk of
-serious long term harm, or even death.
-
 \subsection{Individual Soul Powers}
 
 \begin{table*}[!htb]
@@ -85,27 +79,27 @@ serious long term harm, or even death.
   \rowcolors{1}{white}{light-grey}
   \begin{tabular}{p{4cm} p{11cm}}
     \textbf{Level 0} & \nobreak \\
-    Shining Aura     & You emanate shining light, that illuminates your surroundings. \\
+    \nameref{soulpower:Shining Aura}     & You emanate shining light, that illuminates your surroundings. \\
     \textbf{Level 1} & \nobreak \\
-    Mend Soul        & You cure a target soul, or creature with a soul, for 1d8+1 points of damage. \\
-    War Fuel         & You power your physical prowess with your soul's energy \\
-    Aflame           & You set others or objects aflame using soul fire. \\
+    \nameref{soulpower:Mend Soul}        & You cure a target soul, or creature with a soul, for 1d8+1 points of damage. \\
+    \nameref{soulpower:Fuel of War}      & You power your physical prowess with your soul's energy. \\
+    \nameref{soulpower:Aflame}           & You set others or objects aflame using soul fire. \\
     \textbf{Level 2} & \nobreak \\
-    Soul Fire Ray    & You conjure a ray of soul fire to damage your enemies. \\
-    Disjoint         & Leave your body behind and free your soul \\
+    \nameref{soulpower:Soul Fire Ray}    & You conjure a ray of soul fire to damage your enemies. \\
+    \nameref{soulpower:Disjoint}         & Leave your body behind and free your soul. \\
     \textbf{Level 3} & \nobreak \\
-    Break Soul       & \nobreak \\
-    Fearsome Presence& Your mere presence strikes fear and dread in to the heart of your enemies \\
-    Soul Blade       & You fuel your weapons with soul fire, causing them to deal additional damage on hit. \\
+    \nameref{soulpower:Break Soul}       & Break the soul of another creature or person. \\
+    \nameref{soulpower:Fearsome Presence}& Your mere presence strikes fear and dread in to the heart of your enemies. \\
+    \nameref{soulpower:Soul Blade}       & You fuel your weapons with soul fire, causing them to deal additional damage on hit. \\
     \textbf{Level 4} & \nobreak \\
-    Consume Soul     & \nobreak \\
-    Inconspicuous Presence & You go unnoticed, undetected and easily slip the minds of those that do see you. \\
-    Violent Disjoint & You force your enemy's soul out of their body \\
+    \nameref{soulpower:Consume Soul}     & Consume the soul of another creature or person. \\
+    \nameref{soulpower:Inconspicuous Presence} & You go unnoticed, undetected and easily slip the minds of those that do see you. \\
+    \nameref{soulpower:Violent Disjoint} & You force your enemy's soul out of their body. \\
     \textbf{Level 5} & \nobreak \\
-    Annihilate       & \nobreak \\
+    \nameref{soulpower:Annihilate}       & Destroy the soul of another creature or person. \\
     \textbf{Level 6} & \nobreak \\
-    Defile           & You kill and destroy to gain soul power \\
-    Preserve         & You sacrifice your own soul power to restore a defiled area \\
+    \nameref{soulpower:Defile}           & You kill and destroy to gain soul power. \\
+    \nameref{soulpower:Preserve}         & You sacrifice your own soul power to restore a defiled area. \\
   \end{tabular}
 \end{table*}
 
@@ -308,7 +302,6 @@ serious long term harm, or even death.
   \rangeclose
   \instantaneous
   \raising{Yes}
-  \sundering{Yes, near death experience from damage from this spell}
 
   You conjure a sharp, fiery ray of raw soul energy that you can direct at
   your enemies. Each ray requires a ranged touch attack to hit, and deals 3d6
@@ -322,18 +315,19 @@ serious long term harm, or even death.
   \castingtime{1 standard action}
   \rangetouch
   \raising{Yes}
-  \duration{1 minute per cast level}
+  \duration{1 round per level}
   \savingthrow{Will to resist}
 
   Works just like ``disjoint'', except you can force another creature's soul
   out of their body. If the saving throw fails, the soul of your target is
   forced out its body, and incapable of returning for the duration. Raising
-  this soul power increases your DC for +1 for each level you raise it.
+  this soul power increases your DC by 1 for each level you raise it, and it
+  lasts one round longer per each level raised.
 \end{soulpower}
 
 \subsection{Soul Auras}
 
-\begin{soulpower}{Fearsome Presence (Aura)}
+\begin{soulpower}{Fearsome Presence}
   \level{3}
   \components{-}
   \castingtime{Free action}
@@ -351,7 +345,7 @@ serious long term harm, or even death.
   additional one HD to your threshold by doing so (maximum +7).
 \end{soulpower}
 
-\begin{soulpower}{Inconspicuous Presence (Aura)}
+\begin{soulpower}{Inconspicuous Presence}
   \aren{My favourite tool to remain unnoticed in large and crowded places.}
 
   \level{4}
@@ -369,7 +363,7 @@ serious long term harm, or even death.
   forget they ever saw you after 1d4 rounds.
 \end{soulpower}
 
-\begin{soulpower}{Shining Aura (Aura)}
+\begin{soulpower}{Shining Aura}
   \level{0}
   \components{-}
   \castingtime{Free action}
