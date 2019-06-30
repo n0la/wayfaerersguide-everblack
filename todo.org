@@ -1,6 +1,7 @@
-* TODO Stats for Ilians
+* DONE Stats for Ilians
 * TODO Soul powers
-* TODO Soul magick rules
-* TODO Aren Fel
-* TODO Graham Balance
+* DONE Soul magick rules
+* DONE Aren Fel
+* DONE Graham Balance
 * TODO More monsters
+* TODO Black Blight
