@@ -22,6 +22,7 @@
 \usepackage{placeins}
 \usepackage{pdflscape}
 \usepackage{xfrac}
+\usepackage{multicol}
 
 \DeclareCaptionFont{blue}{\color{LightSteelBlue3}}
 
@@ -53,6 +54,8 @@
   Continous updates ever since then, by Aren Fel
 }
 
+\unsettoc{toc}{onecolumn}
+
 \begin{document}
 
 \setcounter{secnumdepth}{0} % sections are level 1
@@ -66,10 +69,14 @@
 % Credits
 \input{chapters/credits}
 
+% Two column table of contents
 \tableofcontents
 \newpage
 
+% Enable two columns mode for everything, undo this in specific
+% chapters later where it makes sense.
 \twocolumn
+
 % Chapter 1: Introduction
 \input{chapters/introduction}
 
