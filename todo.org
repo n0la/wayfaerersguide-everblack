@@ -1,7 +1,6 @@
-* DONE Stats for Ilians
 * TODO Soul powers
-* DONE Soul magick rules
-* DONE Aren Fel
-* DONE Graham Balance
 * TODO More monsters
 * TODO Black Blight
+* TODO More diseases
+* TODO More planets
+* TODO Elementals
