@@ -31,6 +31,29 @@
   \end{center}
 }
 
+\newcommand\infoboxitem[1]{%
+  \item{\textbf{#1}:\space}
+}
+
+\newenvironment{infobox}[1]{%
+  \begin{figure*}
+    \begin{mdframed}[
+      skipabove = 0.3cm,
+      leftmargin = 0.2cm,
+      rightmargin = 0.2cm,
+      linewidth = 0.8pt,
+      linecolor = light-grey,
+      roundcorner = 5pt,
+      ]
+      \begin{center}
+        \textbf{\large{#1}}
+      \end{center}
+      \par
+      }{
+    \end{mdframed}
+  \end{figure*}
+}
+
 % Environment for 3.5e rules
 %
 \newenvironment{35e}[1]{%
