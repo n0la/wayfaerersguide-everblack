@@ -1,3 +1,5 @@
+\renewcommand{\floatpagefraction}{.9}%
+
 \newcommand\litem[1]{\item{\bfseries#1.\space}}
 
 \definecolor{light-grey}{gray}{0.85}
@@ -5,6 +7,11 @@
 \newcommand*\cleartoleftpage{%
   \clearpage
   \ifodd\value{page}\hbox{}\newpage\fi
+}
+
+\newcommand*\cleartorightpage{%
+  \clearpage
+  \ifodd\else\value{page}\hbox{}\newpage\fi
 }
 
 % Notes for DM's
@@ -32,11 +39,11 @@
 }
 
 \newcommand{\infoboxitem}[2]{%
-  \item{\small{\textbf{#1}}: \small{#2}}
+  \item{\footnotesize{\textbf{#1}}: \footnotesize{#2}}
 }
 
 \newenvironment{infobox}[1]{%
-  \begin{figure*}
+  \begin{figure*}[h!]
     \begin{mdframed}[
       skipabove = 0.3cm,
       leftmargin = 0.2cm,
