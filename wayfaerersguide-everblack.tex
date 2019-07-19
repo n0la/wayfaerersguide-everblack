@@ -2,6 +2,7 @@
 \usepackage[table,x11names]{xcolor}
 \usepackage[utf8]{inputenc}
 \usepackage{aurical}
+\usepackage{ifpdf}
 \usepackage[l,nf]{coelacanth}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
@@ -25,24 +26,11 @@
 \usepackage{multicol}
 
 \DeclareCaptionFont{blue}{\color{LightSteelBlue3}}
-
 \hypersetup{pdftex,colorlinks=true,allcolors=blue}
-
 \usetikzlibrary{positioning}
+\renewcommand{\floatpagefraction}{.9}%
 
 \input{macros}
-
-\newcommand\aren[1]{
-  \begin{addmargin}[0.5cm]{0.5cm}
-    ``#1'' - \emph{Aren Fel}\\
-  \end{addmargin}
-}
-
-\newcommand\graham[1]{
-  \begin{addmargin}[0.5cm]{0.5cm}
-    ``#1'' - \emph{Graham Balance}\\
-  \end{addmargin}
-}
 
 \title{Everblack:\linebreak Wayfaerer's Guide to Aror}
 \author{
@@ -51,7 +39,7 @@
   Aren Fel
 }
 \date{Original version by Archmagi Graham Balance in GT:2104\\
-  Continous updates ever since then, by Aren Fel
+  Continuous updates ever since then, by Aren Fel
 }
 
 \unsettoc{toc}{onecolumn}
