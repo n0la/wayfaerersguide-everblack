@@ -1,23 +1,29 @@
 \cleardoubleevenemptypage
 
+\ifimages
 \begin{figure*}[ht!]
   \centering
   \vspace{-4.6cm}
   \centerline{
-    \includegraphics[width=\paperwidth,keepaspectratio]{media/forsby-a3-sm.png}
+    \includegraphics[width=\paperwidth,keepaspectratio]{%
+      media/forsby-a3-sm.\imagesuffix
+    }
   }
   \par
   View from the Midway tavern, GT:2104
 \end{figure*}
+\fi
 
 \vspace{-0.5cm}
 
 \begin{infobox}{City Kingdom of Forsby}
+  \ifimages
   \begin{subfigure}[t]{\textwidth}
     \centering
-    \includegraphics[width=0.20\linewidth]{media/forsby_banner_sm.png}
+    \includegraphics[width=0.20\linewidth]{media/forsby_banner_sm.\imagesuffix}
   \end{subfigure}
   \vspace{-1.0cm}
+  \fi
   \begin{multicols}{2}
     \begin{itemize}[label={},noitemsep,leftmargin=0.0cm,topsep=0pt]
       \infoboxitem{Location}{Western shores of North \nameref{sec:Goltir}}

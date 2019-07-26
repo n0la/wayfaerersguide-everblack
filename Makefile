@@ -1,7 +1,9 @@
 LATEX = wayfaerersguide-everblack.tex
-PDF= wayfaerers-guide-to-everblack.pdf
+PDF= wayfaerersguide-everblack.pdf \
+     wayfaerersguide-everblack-lowres.pdf \
+     wayfaerersguide-everblack-noimg.pdf
 
-${PDF}: ${LATEX}
-	pdflatex -halt-on-error $<
+%.pdf: %.tex
+	pdflatex -jobname=$(@:.pdf=) -halt-on-error $<
 
 all: ${PDF}

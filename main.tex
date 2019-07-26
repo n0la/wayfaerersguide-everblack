@@ -1,0 +1,105 @@
+\documentclass[12pt,a4paper,twocolumn]{scrbook}
+\usepackage[table,x11names]{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{aurical}
+\usepackage{ifpdf}
+\usepackage[l,nf]{coelacanth}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{fullpage}
+\usepackage{eso-pic}
+\usepackage{incgraph,tikz}
+\usepackage[framemethod = TikZ]{mdframed}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{nameref}
+\usepackage{titleref}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{pdflscape}
+\usepackage{xfrac}
+\usepackage{multicol}
+\usepackage{csquotes}
+
+\DeclareCaptionFont{blue}{\color{LightSteelBlue3}}
+\hypersetup{pdftex,colorlinks=true,allcolors=blue}
+\usetikzlibrary{positioning}
+\renewcommand{\floatpagefraction}{.9}%
+
+\input{macros}
+
+\title{Everblack:\linebreak Wayfaerer's Guide to Aror}
+\author{
+  Archmagi Graham Balance\\
+  \and
+  Aren Fel
+}
+\date{Original version by Archmagi Graham Balance in GT:2104\\
+  Continuous updates ever since then, by Aren Fel
+}
+
+\unsettoc{toc}{onecolumn}
+
+\begin{document}
+
+\setcounter{secnumdepth}{0} % sections are level 1
+
+\maketitle
+
+% Put world map right here, after the title, making them the
+% second and third page
+\input{chapters/worldmap}
+
+% Credits
+\input{chapters/credits}
+
+% Two column table of contents
+\tableofcontents
+\newpage
+
+% Enable two columns mode for everything, undo this in specific
+% chapters later where it makes sense.
+\twocolumn
+
+% Chapter 1: Introduction
+\input{chapters/introduction}
+
+% Chapter 2: Races
+\input{chapters/races}
+
+% Chapter 3: World of Aror
+\input{chapters/aror}
+
+% Chapter 4: Religion on Aror
+\input{chapters/deities}
+
+% Chapter 5: Organisations
+\input{chapters/organisations}
+
+% Chapter 6: Planes & Planets
+\input{chapters/planes}
+
+% Chapter 7: Classes & PrC
+\input{chapters/classes}
+
+% Chapter 8: Characteristics
+\input{chapters/characteristics}
+
+% Chapter 9: Magic
+\input{chapters/magic}
+
+% Chapter 10: Equipment
+\input{chapters/equipment}
+
+% Chapter 11: Magic Items
+\input{chapters/magicitems}
+
+% Chapter 12: Monsters
+\input{chapters/monsters}
+
+\end{document}
