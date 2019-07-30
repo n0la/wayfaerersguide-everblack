@@ -1,9 +1,29 @@
 \cleardoubleevenemptypage
 
-% TODO: image
+\ifimages
+\begin{figure*}[ht!]
+  \centering
+  \vspace{-3.6cm}
+  \centerline{
+    \includegraphics[width=\paperwidth,keepaspectratio]{%
+      media/avenfjord.\imagesuffix
+    }
+  }
+  \par
+  Avenfjord being rebuilt, circa MI:1922
+\end{figure*}
+\fi
 
 \begin{infobox}{City Kingdom of Avenfjord}
-  \begin{multicols}{2}
+  \ifimages
+  \begin{subfigure}[t]{\textwidth}
+    \centering
+    \includegraphics[width=0.22\linewidth]{%
+      media/avenfjord-bannersm.\imagesuffix
+    }
+  \end{subfigure}
+  \fi
+ \begin{multicols}{2}
     \begin{itemize}[label={},noitemsep,leftmargin=0pt,topsep=0pt]
       \infoboxitem{Location}{Southern coast of \nameref{sec:Goltir}}
       \infoboxitem{Languages}{Enro'ad, Taavid, Teranim}
@@ -73,6 +93,30 @@ with the military aid of various allies, the starved and weakened elves and
 halflings were forced to abandon Nen-Hilith and flee across the sea to the
 north. The giants then razed the city to the ground.
 
+\subsubsection{Rebuilding}
+
+Many city kingdoms, including \nameref{sec:Forsby}, \nameref{sec:Hraglund},
+and \nameref{sec:Fes al-Bashir}, arrived with ships to aid Nen-Hilith during
+the evacuation, and as it became clear that a newly founded city kingdom could
+not support all the refugees that had been displaced, many sought shelter
+within those city kingdoms. The refugees were welcomed warmly, and local
+authorities of the city kingdoms and baronies drummed up support from their
+population in an effort to help the kingdom of Avenfjord. The people donated
+money, materials, or even travelled to Avenfjord to lend the kingdom their
+expertise as artisans, artists, traders, labourers, policemen, or even
+soldiers. Over the course of many decades almost all citizens of Nen-Hilith
+returned to Avenfjord, as the city regained the infrastructure to house and
+support its people.
+
+One thing however could not be rebuilt: the dragon teleporter. During the
+siege of the city, after it became clear that the city was lost, the mages
+were forced to destroy the teleporters or it would have fallen into the hands
+of the Giants. To this day the mages of Avenfjord are funding expeditions to
+find a replacement, and many attempts have been made to recover pieces of the
+original dragon teleporter from the ruins of Nen-Hilith. But for now Avenfjord
+remains the only city kingdom that is not connected to the dragon teleporter
+network.
+
 \subsubsection{Formian War}
 \label{sec:Formian War}
 
@@ -138,13 +182,13 @@ guard, that enact the laws the monarch sign into law fairly.
 
 \subsubsection{Relations}
 
-Avenfjord has not signed the \nameref{sec:Vonir Accord} with Norbury. Although
-this puts citizens of Avenfjord at risk of enslavement should they travel to
-Norbury, such cases are extremely rare. Neither Norbury, nor Fes al-Bashir wish
-to raise diplomatic issues between them and Avenfjord.
+Avenfjord has not signed the \nameref{sec:Vonir Accord}. Although this puts
+citizens of Avenfjord at risk of enslavement should they travel to Norbury,
+such cases are extremely rare. Neither Norbury, nor Fes al-Bashir wish to
+raise diplomatic issues between them and Avenfjord.
 
-After Nen-Hilith received little aid from the warrior nations during its siege,
-Avenfjord has sought to rectify the decrepit relations between itself, and its
+After Nen-Hilith received little aid from the warrior nations during its
+siege, Avenfjord has sought to rectify the decrepit relations with its
 peers. Avenfjord generally holds good relations with all city kingdoms, even
 with \nameref{sec:Morkan}.
 
