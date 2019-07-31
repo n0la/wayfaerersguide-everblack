@@ -2,26 +2,22 @@
 \label{sec:Feats}
 
 \begin{table*}[!htb]
+  \small
   \captionsetup{labelformat=empty,font={large,bf},position=top}
   \caption{Overview of Feats}
   \rowcolors{1}{white}{light-grey}
-  \begin{tabular}{l l p{7cm}}
-    \textbf{General Feats}    & \textbf{Prerequisites}           & \textbf{Benefit} \\
-    Craft Implant             & Caster level 3rd                 & Craft implants \\
-    Improved Weapon Finesse   & Weapon Finesse                   & Gain dexterity on damage with finesse weapons \\
-    Radiant Soul              & Soul Awakened, 13+ Charisma      & Your soul power point die step increases by one \\
+  \begin{tabular}{l p{4.5cm} p{7cm}}
+    \textbf{General Feats}        & \textbf{Prerequisites}           & \textbf{Benefit} \\
+    Improved Weapon Finesse       & Weapon Finesse                   & Gain dexterity on damage with finesse weapons \\
+    Craft Implant                 & Caster level 3rd                 & Craft implants \\
+    Greater Weapon Specialisation & Proficiency with weapon, Greater Weapon Focus with weapon, Weapon focus with weapon, Weapon specialisation with weapon, BAB 12 & +2 bonus to damage rolls with weapon, and doubled damage die with weapon for 12th level Fighters \\
+    Radiant Soul                  & Soul Awakened, 13+ Charisma      & Your soul power point die step increases by one \\
+    Weapon Specialisation         & Proficiency with Weapon, Weapon Focus with weapon, BAB 4 & +2 damage with selected weapon, and bigger damage die as a 4th level Fighter \\
   \end{tabular}
 \end{table*}
 
 \subsection{General Feats}
 \label{sec:General Feats}
-
-\begin{35efeat}{Improved Weapon Finesse}
-  \srditem{Description}{You can add your dexterity modifier instead of your
-    strength modifier to damage for weapons that can be used with Weapon
-    Finesse}
-  \srditem{Requirements}{Weapon Finesse, Bab 6, Dexterity 17}
-\end{35efeat}
 
 \begin{35efeat}{Craft Implant}
   \srditem{Description}{You can craft small magical implants that can be
@@ -47,9 +43,61 @@
   \srditem{Prerequisite}{Caster level 3rd}
 \end{35efeat}
 
+\begin{35efeat}{Greater Weapon Specialisation}
+  Choose one type of weapon for which you have already selected Weapon
+  Specialisation. You can also choose unarmed strike or grapple as your weapon
+  for purposes of this feat.
+
+  \srditem{Prerequisites}{Proficiency with selected weapon, Greater Weapon
+    Focus with selected weapon, Weapon Focus with selected weapon, Weapon
+    Specialisation with selected weapon, BAB 12
+  }
+  \srditem{Benefit}{You gain a +2 bonus on all damage rolls you make using the
+    selected weapon. This bonus stacks with other bonuses on damage rolls,
+    including the one from Weapon Specialisation (see below). If you are a
+    12th level Fighter (or higher), then the amount of damage die are doubled
+    for the given weapon.
+  }
+  \srditem{Special}{You can gain Greater Weapon Specialisation multiple
+    times. Its effects do not stack. Each time you take the feat, it applies to
+    a new type of weapon.
+
+    A fighter may select Greater Weapon Specialisation as one of his fighter
+    bonus feats.
+  }
+\end{35efeat}
+
+\begin{35efeat}{Improved Weapon Finesse}
+  \srditem{Description}{You can add your dexterity modifier instead of your
+    strength modifier to damage for weapons that can be used with Weapon
+    Finesse}
+  \srditem{Requirements}{Weapon Finesse, Bab 6, Dexterity 17}
+\end{35efeat}
+
 \begin{35efeat}{Radiant Soul}
   \srditem{Description}{Your soul power point die step is increased by one,
     for any future class levels, as long as they give you soul power points.
   }
   \srditem{Requirements}{Soul Awakening, 13+ Charisma}
 \end{35efeat}
+
+\begin{35e}{Weapon Specialisation}
+  Chose one type of weapon for which you already have selected the
+  \emph{Weapon Focus} feat. You can also choose unarmed strike, or
+  grapple as your weapon for purposes of this feat. You deal extra
+  damage when using this weapon.
+
+  \srditem{Prerequisites}{Proficiency with the selected weapon, \emph{Weapon
+      Focus} with selected weapon, BAB 4
+  }
+  \srditem{Benefit}{You gain a +2 bonus on all damage rolls you make using the
+    selected weapon. If you are a 4th level Fighter (or higher), the selected
+    weapon also has its damage die increased by one step when you use it.
+  }
+  \srditem{Special}{You can gain this feat multiple times. Its effects do not
+    stack. Each time you take the feat, it applies to a new type of weapon.
+
+    A fighter may select Weapon Specialisation as one of his fighter bonus
+    feats.
+  }
+\end{35e}
