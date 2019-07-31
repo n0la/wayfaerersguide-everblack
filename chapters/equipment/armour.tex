@@ -10,22 +10,23 @@ plate armours are also status symbols, and often lavishly embellished and
 engraved.
 
 \begin{table*}[!htb]
+  \small
   \captionsetup{labelformat=empty,font={large,bf},position=top}
   \caption{Overview of Armours}
   \rowcolors{1}{white}{light-grey}
-  \begin{tabular}{p{3cm} l p{1cm} p{1.5cm} l l p{1cm} l}
-    \textbf{Armour} & \textbf{Cost} & \textbf{Armour Bonus} & \textbf{Max Dex Bonus} & \textbf{ACP} & \textbf{ASF} & \textbf{Speed Penalty} & \textbf{Weight} \\
-    \multicolumn{8}{l}{\large{\textbf{Light Armour}}} \\
-    Gambeson        &   1 shard   (10 gp)  & 2 & 8 &  0 &  5\% & -                  &  2kg  (5 lbs.) \\
-    Jack of Plates  &   5 shards  (50 gp)  & 3 & 7 & -1 & 10\% & -                  &  4kg  (9 lbs.) \\
-    Mail Shirt      &  10 shards  (100 gp) & 4 & 5 & -2 & 15\% & -                  &  8kg (17 lbs.) \\
-    \multicolumn{8}{l}{\large{\textbf{Medium Armour}}} \\
-    Hide Armour     &   5 shards  (50 gp)  & 3 & 4 & -3 & 20\% & -                  & 12kg (25 lbs.) \\
-    Coat of Plates  &  10 shards  (100 gp) & 5 & 3 & -4 & 25\% & -                  & 15kg (33 lbs.) \\
-    Brigandine      &  30 shards  (150 gp) & 6 & 4 & -3 & 30\% & -                  & 14kg (30 lbs.) \\
-    \multicolumn{8}{l}{\large{\textbf{Heavy Armour}}} \\
-    Breastplate     &  60 shards  (200 gp) & 7 & 3 & -4 & 25\% & -10 ft. / -5 ft.   & 20kg (44 lbs.) \\
-    Plate Armour    & 150 shards (1500 gp) & 9 & 1 & -6 & 35\% & -10 ft. / -5 ft.   & 25kg (55 lbs.) \\
+  \begin{tabular}{p{2cm} l p{1cm} l l l p{1cm} p{2.5cm} l}
+    \textbf{Armour} & \textbf{Cost} & \textbf{Armour Bonus} & \textbf{MDB} & \textbf{ACP} & \textbf{ASF} & \textbf{Speed Penalty} & \textbf{DR} & \textbf{Weight} \\
+    \multicolumn{9}{l}{\textbf{Light Armour}} \\
+    Gambeson        &   2 shards  & 2 & 8 &  0 &  5\% & -                  & 2/bludgeoning                  &  2kg  (5 lbs.) \\
+    Jack of Plates  &   5 shards  & 3 & 7 & -1 & 10\% & -                  & 2/bludgeoning, and 2/piercing  &  4kg  (9 lbs.) \\
+    Mail Shirt      &  10 shards  & 4 & 5 & -2 & 15\% & -                  & 5/slashing                     &  8kg (17 lbs.) \\
+    \multicolumn{9}{l}{\textbf{Medium Armour}} \\
+    Hide Armour     &   1 shard   & 3 & 4 & -3 & 20\% & -                  & -                              & 12kg (25 lbs.) \\
+    Coat of Plates  &  10 shards  & 5 & 3 & -4 & 25\% & -                  & 4/bludgeoning, and 2/piercing  & 15kg (33 lbs.) \\
+    Brigandine      &  30 shards  & 6 & 4 & -3 & 30\% & -                  & 4/bludgeoning, and 4/piercing  & 14kg (30 lbs.) \\
+    \multicolumn{9}{l}{\textbf{Heavy Armour}} \\
+    Breastplate     &  60 shards  & 7 & 3 & -4 & 25\% & -10 ft. / -5 ft.   & 5/slashing, and 5/piercing     & 20kg (44 lbs.) \\
+    Plate Armour    & 150 shards  & 9 & 1 & -6 & 35\% & -10 ft. / -5 ft.   & 10/slashing, and 5/piercing    & 25kg (55 lbs.) \\
   \end{tabular}
 \end{table*}
 
@@ -93,4 +94,8 @@ joints) and is susceptible to bludgeon attacks.
 
   Normal restrictions regarding medium armour, as well as restrictions regarding
   plate armour (which is equivalent to a ``Full plate'') apply as normal.
+
+  Damage reductions that affect the same damage source (e.g. slashing) do not
+  stack, only the highest applies. Damage reductions for different damage types
+  do indeed stack.
 \end{note}
