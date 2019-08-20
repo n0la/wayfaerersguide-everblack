@@ -1,9 +1,26 @@
 \cleardoubleevenemptypage
 
-%% TODO: Artwork
+\ifimages
+\begin{figure*}[ht!]
+  \centering
+  \vspace{-5.2cm}
+  \centerline{
+    \includegraphics[width=\paperwidth,keepaspectratio]{%
+      media/elfayam.\imagesuffix
+    }
+  }
+\end{figure*}
+\fi
 
 \begin{infobox}{City Kingdom of El-Fayam}
-  %% TODO: Crest
+  \ifimages
+  \begin{subfigure}[t]{\textwidth}
+    \centering
+    \includegraphics[width=0.22\linewidth]{%
+      media/elfayam-bannersm.\imagesuffix
+    }
+  \end{subfigure}%
+  \fi%
   \begin{multicols}{2}
     \begin{itemize}[label={},noitemsep,leftmargin=0.0cm,topsep=0pt]
       \infoboxitem{Location}{South western shores of \nameref{sec:Arania}
