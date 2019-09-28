@@ -1,6 +1,18 @@
 \cleardoubleevenemptypage
 
-%% TODO: Artwork
+\ifimages
+\begin{figure*}[ht!]
+  \centering
+  \vspace{-5.8cm}
+  \centerline{
+    \includegraphics[width=\paperwidth,keepaspectratio]{%
+      media/esmayar.\imagesuffix
+    }
+  }
+  \captionsetup{labelformat=empty}
+  \caption{``Visiting Esmayar as a core race should be avoided at all costs.'' - Aren Fel}
+\end{figure*}
+\fi
 
 \begin{infobox}{City Kingdom of Esmayar}
   %% TODO: Crest
@@ -9,20 +21,20 @@
       \infoboxitem{Location}{North western shores of \nameref{sec:Arania}
       }
       \infoboxitem{Languages}{Gnoll, Giant}
-      \infoboxitem{Government}{Absolute Monarchy}
+      \infoboxitem{Government}{Absolute Monarchy, Tyranny}
       \infoboxitem{Major Religions}{\nameref{sec:Three Kings},
-        \nameref{sec:Isamir}
+        \nameref{sec:Isamir}, \nameref{sec:Forun} and \nameref{sec:Marwaid}
       }
       \infoboxitem{Area}{est. 120,000 $km^2$}
       \infoboxitem{Population}{unknown}
-      \infoboxitem{Non Grata}{any non-monstrous races without a proper permit
+      \infoboxitem{Non Grata}{any non-monstrous races without permit
       }
       \infoboxitem{Magic}{all magic banned for non-citizens
       }
       \infoboxitem{Slavery}{yes, all forms}
       \infoboxitem{Special Laws}{unknown}
       \infoboxitem{Notable Organisations}{unknown}
-      \infoboxitem{POI}{slave actions, gladiatorial arena, shrine to the
+      \infoboxitem{POI}{slave auctions, gladiatorial arena, shrine to the
         \nameref{sec:Three Kings}
       }
     \end{itemize}
