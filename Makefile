@@ -5,5 +5,10 @@ PDF= wayfaerersguide-everblack.pdf \
 
 %.pdf: %.tex
 	pdflatex -jobname=$(@:.pdf=) -halt-on-error $<
-
+    
 all: ${PDF}
+
+clean:
+	rm -rf *.aux *.log
+
+.PHONY: clean
