@@ -1,9 +1,20 @@
 \cleardoubleevenemptypage
 
-%% TODO: Artwork
+\ifimages
+\begin{figure*}[ht!]
+  \centering
+  \vspace{-4.6cm}
+  \centerline{
+    \includegraphics[width=\paperwidth,keepaspectratio]{%
+      media/nenhilith.\imagesuffix
+    }
+  }
+  \par
+  Nen-Hilith has become a treasure trove for adventurers.
+\end{figure*}
+\fi
 
 \begin{infobox}{Ruins of Nen-Hilith}
-  %% TODO: Crest
   \begin{multicols}{2}
     \begin{itemize}[label={},noitemsep,leftmargin=0.0cm,topsep=0pt]
       \infoboxitem{Location}{Northern shores of \nameref{sec:Farlar}
