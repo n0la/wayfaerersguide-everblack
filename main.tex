@@ -49,7 +49,11 @@
 
 \setcounter{secnumdepth}{0} % sections are level 1
 
+\ifimages
+\incgraph{media/cover.\imagesuffix}
+\else
 \maketitle
+\fi
 
 % Put world map right here, after the title, making them the
 % second and third page
